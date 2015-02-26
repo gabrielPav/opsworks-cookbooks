@@ -57,7 +57,7 @@ attribute "nginx/keepalive",
 
 attribute "nginx/keepalive_timeout",
   :display_name => "Nginx Keepalive Timeout",
-  :default => "65"
+  :default => "5"
 
 attribute "nginx/worker_processes",
   :display_name => "Nginx Worker Processes",
